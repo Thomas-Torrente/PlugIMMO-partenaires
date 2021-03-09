@@ -1,1 +1,41 @@
-/* Other rules */
+.carrousel {
+  display: flex;
+  text-align: center;
+  overflow-x: scroll;
+  justify-content: center;
+
+}
+
+.one-partnership img {
+  width: 200px;
+  display: flex;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 25%;
+  border-color: #963047 1px solid ;
+}
+
+
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+
+
+  /* GLOBAL */
+
+  .flex-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  body {
+      margin: 15 auto;
+      
+  }
+
+  .color-red {
+      color: #963047;
+  }
